@@ -11,7 +11,7 @@ export default function UpdateArticleForm() {
 
   // Fetch to prefill a form and update an existing article
   useEffect(() => {
-
+    api .get(`/article`)
   }, []);
 
   const handleChange = (e) => {
